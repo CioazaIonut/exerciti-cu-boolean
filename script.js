@@ -71,3 +71,36 @@ let eWeekend = false;
 let a = true;
 let b = false;
 console.log(a !== b);
+
+// Verifică dacă fiul are peste 18 ani:
+
+let varstaFiu = 20;
+console.log(varstaFiu >= 18);
+
+// Fă o comparație pentru a afla dacă două variabile sunt egale:
+
+let numar1 = 15;
+let numar2 = 15;
+console.log(numar1 === numar2);
+
+// Verifică dacă un utilizator este major, dar nu are atestat:
+
+let esteAdult = true;
+let areAtestat = false;
+console.log(esteAdult && arePermis);
+
+// Testează dacă un număr este pozitiv sau negativ:
+
+let primulNumar = -5;
+console.log(primulNumar > 0);
+
+// Negarea unei valori boolean:
+
+let esteLaScoala = false;
+console.log(!esteLaScoala);
+
+// Verifică dacă o variabilă este null sau undefined:
+
+let valoare = null;
+console.log(valoare === null);
+console.log(valoare === undefined);
